@@ -9,7 +9,7 @@ class LightbulbToggle extends Component {
   turnOn = () => this.setState({ isLightOn: true });
   turnOff = () => this.setState({ isLightOn: false });
 
-  render() {
+  render() { 
     const { isLightOn } = this.state;
 
     return (
